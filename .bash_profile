@@ -3,6 +3,9 @@ alias ls='gls --color'
 alias ll='ls -l'
 alias la='ls -a'
 
+# rebuilds the Launch Services database and getS rid of duplicates in the Open With submen.
+alias rebuild-openwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+
 # git from homebrew
 . /usr/local/etc/bash_completion.d/git-completion.bash
 
