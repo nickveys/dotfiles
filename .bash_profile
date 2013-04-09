@@ -13,7 +13,6 @@ fi
 
 # homebrew bash completion data
 . `brew --prefix`/etc/bash_completion
-. `brew --prefix`/etc/bash_completion.d/git-completion.bash
 
 export PS1='\n\[\e[32;1m\](\[\e[37;1m\]\u@\h\[\e[32;1m\])-(\[\e[37;1m\]\w\[\e[32;1m\])$(__git_ps1 "-\[\e[32;1m\](\[\e[37;1m\]%s\[\e[32;1m\])")\n(\[\[\e[37;1m\]\!\[\e[32;1m\])-> \[\e[0m\]'
 
