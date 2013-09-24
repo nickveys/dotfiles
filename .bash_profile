@@ -2,6 +2,7 @@
 alias ls='gls --color'
 alias ll='ls -l'
 alias la='ls -a'
+alias env='env | sort'
 
 # rebuilds the Launch Services database and getS rid of duplicates in the Open With submen.
 alias rebuild-openwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
