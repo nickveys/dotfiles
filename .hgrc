@@ -1,0 +1,9 @@
+[ui]
+editor = vim
+merge = kaleidoscope
+[merge-tools]
+kaleidoscope.executable = /usr/local/bin/ksdiff
+kaleidoscope.args = --merge --output $output --base $base -- $local $other
+[extensions]
+color =
+progress =
