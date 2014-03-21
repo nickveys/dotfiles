@@ -6,4 +6,8 @@ kaleidoscope.executable = /usr/local/bin/ksdiff
 kaleidoscope.args = --merge --output $output --base $base -- $local $other
 [extensions]
 color =
+mercurial_keyring =
 progress =
+purge =
+rebase =
+shelve =
