@@ -4,10 +4,16 @@ merge = kaleidoscope
 [merge-tools]
 kaleidoscope.executable = /usr/local/bin/ksdiff
 kaleidoscope.args = --merge --output $output --base $base -- $local $other
+[pager]
+pager = LESS='FSRX' less
 [extensions]
 color =
+histedit =
 mercurial_keyring =
+pager =
 progress =
 purge =
 rebase =
+record =
 shelve =
+strip =
