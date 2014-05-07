@@ -3,6 +3,7 @@ alias ls='gls --color'
 alias ll='ls -l'
 alias la='ls -a'
 alias env='env | sort'
+alias grep='grep --color=auto'
 
 export EDITOR=vim
 
