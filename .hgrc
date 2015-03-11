@@ -8,6 +8,7 @@ kaleidoscope.args = --merge --output $output --base $base -- $local $other
 pager = LESS='FSRX' less
 [extensions]
 color =
+hgext.extdiff =
 histedit =
 mercurial_keyring =
 pager =
@@ -17,3 +18,6 @@ rebase =
 record =
 shelve =
 strip =
+[extdiff]
+cmd.ksdiff = /usr/local/bin/ksdiff
+opts.ksdiff = --changeset --wait --filelist
