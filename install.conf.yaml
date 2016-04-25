@@ -18,3 +18,15 @@
     ~/.vimrc:
       force: true
       path: vimrc
+    ~/.atom/config.cson:
+      force: true
+      path: atom/config.cson
+    ~/.atom/keymap.cson:
+      force: true
+      path: atom/keymap.cson
+    ~/.atom/snippets.cson:
+      force: true
+      path: atom/snippets.cson
+    ~/.atom/styles.less:
+      force: true
+      path: atom/styles.less
