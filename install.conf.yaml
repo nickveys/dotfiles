@@ -15,6 +15,9 @@
     ~/.profile:
       force: true
       path: profile
+    ~/.tool-versions:
+      force: true
+      path: tool-versions
     ~/.vimrc:
       force: true
       path: vimrc
