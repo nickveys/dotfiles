@@ -15,6 +15,7 @@
     packagesWithKeymapsDisabled: [
       "highlight-line"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "monokai-seti"
