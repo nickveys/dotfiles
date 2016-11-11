@@ -66,6 +66,9 @@
 ".diff.source":
   editor:
     preferredLineLength: 100
+".editorconfig.source":
+  editor:
+    preferredLineLength: 100
 ".elixir.html.text":
   editor:
     preferredLineLength: 100
