@@ -5,7 +5,20 @@
 	],
 	"installed_packages":
 	[
+		"AngularJS",
+		"Colorsublime",
+		"Dracula Color Scheme",
+		"EditorConfig",
+		"ESLint",
+		"GitGutter",
+		"Jasmine JS",
+		"Package Control",
+		"Pug",
+		"Sass",
+		"SublimeLinter-contrib-pug-lint",
+		"SublimeLinter-contrib-tslint",
 		"Sunrise Theme",
-		"Theme - Lanzhou"
+		"Theme - Lanzhou",
+		"TypeScript"
 	]
 }
