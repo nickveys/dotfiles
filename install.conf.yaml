@@ -33,3 +33,6 @@
     ~/.atom/styles.less:
       force: true
       path: atom/styles.less
+    ~/Library/Application Support/Sublime Text 3:
+      force: true
+      path: Sublime Text 3
