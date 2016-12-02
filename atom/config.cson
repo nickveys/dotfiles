@@ -17,7 +17,7 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
+      "atom-dark-ui"
       "monokai-seti"
     ]
   editor:
