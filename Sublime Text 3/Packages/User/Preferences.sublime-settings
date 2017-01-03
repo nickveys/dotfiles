@@ -9,6 +9,7 @@
 		"typings/**",
 		".tscache/**"
 	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"highlight_line": true,
 	"hot_exit": false,
@@ -25,7 +26,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
-	"theme": "Sunrise.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false
 }
