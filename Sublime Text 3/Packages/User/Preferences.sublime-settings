@@ -9,7 +9,7 @@
 		"typings/**",
 		".tscache/**"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"highlight_line": true,
 	"hot_exit": false,
