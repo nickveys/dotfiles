@@ -36,3 +36,6 @@
     ~/Library/Application Support/Sublime Text 3:
       force: true
       path: Sublime Text 3
+    ~/Library/Application Support/Code/User:
+      force: true
+      path: VS Code/User
