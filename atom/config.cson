@@ -21,6 +21,7 @@
       "monokai-seti"
     ]
   editor:
+    fontFamily: "Menlo"
     fontSize: 12
     invisibles: {}
     lineHeight: 1.3
