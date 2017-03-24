@@ -17,8 +17,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
-      "monokai-seti"
+      "one-dark-ui"
+      "seti-syntax"
     ]
   editor:
     fontFamily: "Menlo"
@@ -30,17 +30,21 @@
     userId: "e2797ec0-34ce-2763-0d11-4e246f102e5f"
   "git-plus": {}
   "highlight-line": {}
-  linter: {}
+  linter:
+    lintOnChangeInterval: 1000
   "linter-jshint": {}
   "linter-pug": {}
   "linter-rubocop":
     command: "rvm use . && bundle exec rubocop"
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
   minimap:
     plugins:
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
       "minimap-hide": true
       "minimap-hideDecorationsZIndex": 0
   "one-dark-ui":
@@ -50,6 +54,7 @@
   pigments: {}
   rspec:
     command: "bundle exec rspec"
+  "seti-syntax": {}
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
