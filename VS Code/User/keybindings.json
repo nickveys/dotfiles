@@ -1,0 +1,18 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "shift+cmd+\\",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  }
+]
