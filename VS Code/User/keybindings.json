@@ -18,5 +18,9 @@
   {
     "key": "shift+cmd+t",
     "command": "workbench.action.tasks.runTask"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.tasks.restartTask"
   }
 ]
