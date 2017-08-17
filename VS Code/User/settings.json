@@ -8,7 +8,6 @@
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": true,
     "files.trimTrailingWhitespace": true,
-    "material-icon-theme.showUpdateMessage": false,
     "search.exclude": {
         "**/typings": true,
         ".idea": true,
