@@ -39,3 +39,6 @@
     ~/Library/Application Support/Code/User:
       force: true
       path: VS Code/User
+    ~/Library/Application Support/Code - Insiders/User:
+      force: true
+      path: VS Code - Insiders/User
