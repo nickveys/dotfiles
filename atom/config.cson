@@ -49,7 +49,6 @@
       "minimap-hideDecorationsZIndex": 0
   "one-dark-ui":
     fontSize: 12
-    layoutMode: "Compact"
   "open-in-browsers": {}
   pigments: {}
   rspec:
