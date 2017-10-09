@@ -15,5 +15,6 @@
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": -1,
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none"
 }
