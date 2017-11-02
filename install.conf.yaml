@@ -6,6 +6,9 @@
     ~/.hgrc:
       force: true
       path: hgrc
+    ~/.hgignore_global:
+      force: true
+      path: hgignore_global
     ~/.gitconfig:
       force: true
       path: gitconfig
