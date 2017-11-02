@@ -16,5 +16,6 @@
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": -1,
     "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "vsicons.dontShowNewVersionMessage": true
 }
