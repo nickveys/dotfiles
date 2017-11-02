@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.fontFamily": "Menlo",
     "editor.fontSize": 12,
     "editor.rulers": [100],
     "editor.scrollBeyondLastLine": false,
@@ -15,6 +16,8 @@
         ".idea": true,
         ".tscache": true
     },
+    "terminal.integrated.fontFamily": "Menlo",
+    "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": -1,
