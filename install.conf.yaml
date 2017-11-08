@@ -9,6 +9,9 @@
     ~/.hgignore_global:
       force: true
       path: hgignore_global
+    ~/.hyper.js:
+      force: true
+      path: hyper.js
     ~/.gitconfig:
       force: true
       path: gitconfig
