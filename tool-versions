@@ -5,5 +5,5 @@ python 2.7.12
 golang 1.9.2
 lua 5.3.3
 elm 0.17.1
-rust 1.16.0
+rust 1.22.1
 crystal 0.24.0
