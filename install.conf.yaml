@@ -3,6 +3,12 @@
     ~/.bash_profile:
       force: true
       path: bash_profile
+    ~/.profile:
+      force: true
+      path: profile
+    ~/.zshrc:
+      force: true
+      path: zshrc
     ~/.hgrc:
       force: true
       path: hgrc
@@ -18,9 +24,6 @@
     ~/.gitignore_global:
       force: true
       path: gitignore_global
-    ~/.profile:
-      force: true
-      path: profile
     ~/.tool-versions:
       force: true
       path: tool-versions
