@@ -9,7 +9,9 @@
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": true,
     "files.trimTrailingWhitespace": true,
-    "gitlens.codeLens.enabled": false,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     "gitlens.blame.line.enabled": false,
     "search.exclude": {
         "**/typings": true,
@@ -20,7 +22,28 @@
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "telemetry.enableTelemetry": false,
+    "typescript.autoImportSuggestions.enabled": false,
     "window.zoomLevel": -1,
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.startupEditor": "none"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.codeLens.enabled": false
 }
