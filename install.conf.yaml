@@ -9,6 +9,9 @@
     ~/.zshrc:
       force: true
       path: zshrc
+    ~/.oh-my-zsh/custom/aliases.zsh:
+      force: true
+      path: zsh-aliases
     ~/.hgrc:
       force: true
       path: hgrc
