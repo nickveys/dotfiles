@@ -1,9 +1,9 @@
-erlang 20.2.3
+erlang 20.3.4
 elixir 1.6.4
-nodejs 6.12.2
+nodejs 6.14.1
 python 2.7.14
-golang 1.10
+golang 1.10.1
 lua 5.3.3
-elm 0.18
+elm 0.18.0
 rust 1.25.0
 crystal 0.24.2

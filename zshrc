@@ -94,7 +94,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source "$HOME/.asdf/asdf.sh"
+#source "$HOME/.asdf/asdf.sh"
+source /usr/local/opt/asdf/asdf.sh
 source "$HOME/.rvm/scripts/rvm"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
