@@ -45,5 +45,6 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.currentLine.enabled": false,
     "gitlens.keymap": "chorded",
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "vsicons.projectDetection.disableDetect": true
 }
