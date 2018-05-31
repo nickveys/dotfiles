@@ -24,7 +24,7 @@
     "telemetry.enableTelemetry": false,
     "typescript.autoImportSuggestions.enabled": false,
     "window.zoomLevel": -1,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
     "gitlens.gitExplorer.files.layout": "auto",
     "gitlens.advanced.messages": {
