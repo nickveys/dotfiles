@@ -1,0 +1,40 @@
+homebrew:
+  apps:
+
+links:
+  ~/.bash_profile:
+    to: bash_profile
+  ~/.profile:
+    to: profile
+  ~/.zshrc:
+    to: zshrc
+  ~/.oh-my-zsh/custom/aliases.zsh:
+    to: zsh-custom/aliases.zsh
+  ~/.hgrc:
+    to: hgrc
+  ~/.hgignore_global:
+    to: hgignore_global
+  ~/.hyper.js:
+    to: hyper.js
+  ~/.gitconfig:
+    to: gitconfig
+  ~/.gitignore_global:
+    to: gitignore_global
+  ~/.tool-versions:
+    to: tool-versions
+  ~/.vimrc:
+    to: vimrc
+  ~/.atom/config.cson:
+    to: atom/config.cson
+  ~/.atom/keymap.cson:
+    to: atom/keymap.cson
+  ~/.atom/snippets.cson:
+    to: atom/snippets.cson
+  ~/.atom/styles.less:
+    to: atom/styles.less
+  ~/Library/Application Support/Sublime Text 3:
+    to: Sublime Text 3
+  ~/Library/Application Support/Code/User:
+    to: VS Code/User
+  ~/Library/Application Support/Code - Insiders/User:
+    to: VS Code - Insiders/User
