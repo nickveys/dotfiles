@@ -18,7 +18,7 @@ links = SymbolicLinks.new(config['symlinks'], verbose: true)
 links.create!
 
 puts "\n« Installing homebrew »".bold.blue
-brew = Brew.new(config['homebrew'], verbose: true)
+brew = Brew.new(config['homebrew'], force: true, verbose: true)
 brew.install!
 
 puts "\n« Installing homebrew taps »".bold.blue
@@ -26,6 +26,9 @@ brew.tap!
 
 puts "\n« Installing apps via homebrew »".bold.blue
 brew.install_apps!
+
+puts "\n« Cleaning up after homebrew »".bold.blue
+brew.cleanup!
 
 puts "\n« Installing asdf plugins »".bold.blue
 

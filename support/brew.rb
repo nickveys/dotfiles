@@ -10,8 +10,13 @@ class Brew
     @apps = config['apps'] rescue []
     @cask_apps = config['cask-apps'] rescue []
 
-    # @force = options[:force] || false
+    @force = options[:force] || false
     @verbose = options[:verbose] || false
+  end
+
+  def cleanup!
+    raise "Homebrew cleanup failed" unless system("brew cleanup")
+    raise "Homebrew cask cleanup failed" unless system("brew cask cleanup")
   end
 
   def install!
@@ -46,7 +51,7 @@ class Brew
 
     if needed.any?
       puts " • Install #{needed.length} brew apps...".bold.green if @verbose
-      system("brew install #{needed.join(" ")}")
+      system("brew install #{@force ? "--force" : ""} #{needed.join(" ")}")
     else
       true
     end
@@ -64,7 +69,7 @@ class Brew
 
     if needed.any?
       puts " • Install #{needed.length} brew cask apps...".bold.green if @verbose
-      system("brew cask install #{needed.join(" ")}")
+      system("brew cask install #{@force ? "--force" : ""} #{needed.join(" ")}")
     else
       true
     end
