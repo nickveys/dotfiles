@@ -42,8 +42,8 @@ class Brew
   # @return `true` on success
   def do_install_apps
     current = `brew list`.split
-    existing = @apps.shuffle & current.shuffle
-    needed = @apps.shuffle - existing.shuffle
+    existing = @apps & current
+    needed = @apps - existing
 
     if @verbose && existing.any?
       puts " • Skipping #{@apps.length - needed.length} existing apps".bold.magenta
@@ -60,8 +60,8 @@ class Brew
   # @return `true` on success
   def do_install_cask_apps
     current = `brew cask list`.split
-    existing = @cask_apps.shuffle & current.shuffle
-    needed = @cask_apps.shuffle - existing.shuffle
+    existing = @cask_apps & current
+    needed = @cask_apps - existing
 
     if @verbose && existing.any?
       puts " • Skipping #{@cask_apps.length - needed.length} existing cask apps".bold.magenta

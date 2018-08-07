@@ -2,6 +2,7 @@
 
 require('yaml')
 
+require_relative('support/asdf')
 require_relative('support/brew')
 require_relative('support/macos')
 require_relative('support/string')
@@ -31,5 +32,7 @@ puts "\n« Cleaning up after homebrew »".bold.blue
 brew.cleanup!
 
 puts "\n« Installing asdf plugins »".bold.blue
+asdf = ASDF.new(config['asdf'], verbose: true)
+asdf.plugins!
 
 puts "\n« Installing oh-my-zsh »".bold.blue
