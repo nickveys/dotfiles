@@ -93,12 +93,14 @@ homebrew:
     - zsh-completions
     - zsh-syntax-highlighting
   cask-apps:
+    - alfred
     - arq
     - bartender
     - cardhop
     - controlplane
     - docker
     - forklift
+    - istat-menus
     - iterm2
     - java
     - kap
@@ -107,10 +109,12 @@ homebrew:
     - ksdiff
     - mactex
     - ngrok
+    - path-finder
     - paw
     - postgres
     - qlmarkdown
     - quicklook-json
+    - tunnelbear
     - virtualbox
     - xquartz
 asdf:
