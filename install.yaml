@@ -93,20 +93,26 @@ homebrew:
     - zsh-completions
     - zsh-syntax-highlighting
   cask-apps:
+    - arq
+    - bartender
     - cardhop
-    - kap
-    - mactex
-    - quicklook-json
-    - keepingyouawake
-    - ngrok
-    - virtualbox
+    - controlplane
+    - docker
     - forklift
-    - paw
-    - kitematic
-    - xquartz
+    - iterm2
     - java
+    - kap
+    - keepingyouawake
+    - kitematic
     - ksdiff
+    - mactex
+    - ngrok
+    - paw
+    - postgres
     - qlmarkdown
+    - quicklook-json
+    - virtualbox
+    - xquartz
 asdf:
   plugins:
     - crystal
