@@ -22,5 +22,14 @@
   {
     "key": "shift+cmd+r",
     "command": "workbench.action.tasks.restartTask"
-  }
+  },
+  {
+    "key": "ctrl+cmd+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+cmd+\\",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
 ]

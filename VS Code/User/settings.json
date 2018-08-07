@@ -1,6 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Menlo",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.rulers": [100],
     "editor.scrollBeyondLastLine": false,
@@ -12,17 +13,16 @@
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
-    "gitlens.blame.line.enabled": false,
     "search.exclude": {
         "**/typings": true,
         ".idea": true,
         ".tscache": true
     },
-    "terminal.integrated.fontFamily": "Menlo",
+    "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "telemetry.enableTelemetry": false,
-    "typescript.autoImportSuggestions.enabled": false,
+    // "typescript.autoImportSuggestions.enabled": false,
     "window.zoomLevel": -1,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
@@ -46,5 +46,7 @@
     "gitlens.hovers.currentLine.enabled": false,
     "gitlens.keymap": "chorded",
     "gitlens.codeLens.enabled": false,
-    "vsicons.projectDetection.disableDetect": true
+    "vsicons.projectDetection.disableDetect": true,
+    "gitlens.historyExplorer.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
