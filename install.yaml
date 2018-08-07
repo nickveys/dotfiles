@@ -93,19 +93,26 @@ homebrew:
     - zsh-completions
     - zsh-syntax-highlighting
   cask-apps:
+    - 1password
     - alfred
     - arq
     - bartender
     - cardhop
     - controlplane
+    - dash
     - docker
+    - duet
+    - firefox
     - forklift
+    - google-chrome
+    - handbrake
     - istat-menus
     - iterm2
     - java
     - kap
     - keepingyouawake
     - kitematic
+    - knox
     - ksdiff
     - mactex
     - ngrok
@@ -114,8 +121,14 @@ homebrew:
     - postgres
     - qlmarkdown
     - quicklook-json
+    - slack
+    - sourcetree
+    - steam
+    - transmission
     - tunnelbear
+    - visual-studio-code
     - virtualbox
+    - vlc
     - xquartz
 asdf:
   plugins:
