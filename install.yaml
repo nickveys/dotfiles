@@ -1,7 +1,4 @@
-homebrew:
-  apps:
-
-links:
+symlinks:
   ~/.bash_profile:
     to: bash_profile
   ~/.profile:
@@ -38,3 +35,87 @@ links:
     to: VS Code/User
   ~/Library/Application Support/Code - Insiders/User:
     to: VS Code - Insiders/User
+macos:
+  defaults:
+    write:
+      com.apple.finder:
+       - ShowStatusBar -bool true
+      com.apple.ImageCapture:
+       - disableHotPlug -bool true
+      com.apple.Safari:
+       - AutoFillPasswords -bool false
+       - AutoFillCreditCardData -bool false
+       - AutoOpenSafeDownloads -bool false
+       - IncludeDevelopMenu -bool true
+       - SendDoNotTrackHTTPHeader -bool true
+       - ShowFavoritesBar -bool true
+       - ShowFullURLInSmartSearchField -bool true
+homebrew:
+  taps:
+    - homebrew/cask
+    - homebrew/cask-fonts
+  apps:
+    - asdf
+    - bash-completion
+    - boost
+    - cmake
+    - coreutils
+    - cowsay
+    - dos2unix
+    - ffmpeg
+    - fwup
+    - git
+    - git-extras
+    - gnupg
+    - heroku
+    - hub
+    - imagemagick
+    - lame
+    - mercurial
+    - p7zip
+    - qt
+    - readline
+    - ripgrep
+    - sphinx-doc
+    - sqlite
+    - subversion
+    - tig
+    - tree
+    - unrar
+    - vim
+    - vorbis-tools
+    - wget
+    - wine
+    - wxmac
+    - yarn
+    - youtube-dl
+    - zsh
+    - zsh-completions
+    - zsh-syntax-highlighting
+  cask-apps:
+    - cardhop
+    - kap
+    - mactex
+    - quicklook-json
+    - keepingyouawake
+    - ngrok
+    - virtualbox
+    - forklift
+    - paw
+    - kitematic
+    - xquartz
+    - java
+    - ksdiff
+    - qlmarkdown
+asdf:
+  plugins:
+    - crystal
+    - elixir
+    - elm
+    - erlang
+    - golang
+    - haskell
+    - lua
+    - nodejs
+    - python
+    - rust

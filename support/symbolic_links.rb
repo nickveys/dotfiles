@@ -1,7 +1,7 @@
 require('fileutils')
 require_relative('string')
 
-class Links
+class SymbolicLinks
   def initialize(links, options = {})
     @links = links
     # @force = options[:force] || false
@@ -9,7 +9,6 @@ class Links
   end
 
   def create!
-    puts "« Creating #{@links.length} links »".bold.blue
     results = @links.map do |from, details|
       to = details['to']
       create_link(from, to)
@@ -19,7 +18,7 @@ class Links
   end
 
   def create_link(from, to)
-    print " • Link #{from} -> #{to} ".green if @verbose
+    print " • Link #{from} -> #{to} ".bold.green if @verbose
     from = File.expand_path(from)
     to = File.expand_path(to)
 

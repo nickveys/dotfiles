@@ -2,25 +2,31 @@
 
 require('yaml')
 
-require_relative('support/links')
+require_relative('support/brew')
+require_relative('support/macos')
 require_relative('support/string')
+require_relative('support/symbolic_links')
 
 config = YAML.load(open('./install.yaml'))
 
-links = Links.new(config['links'], verbose: true)
+puts "\n« Setting macOS Defaults »".bold.blue
+macos = MacOS.new(config['macos'], verbose: true)
+macos.defaults!
+
+puts "\n« Creating symbolic links »".bold.blue
+links = SymbolicLinks.new(config['symlinks'], verbose: true)
 links.create!
 
-puts
+puts "\n« Installing homebrew »".bold.blue
+brew = Brew.new(config['homebrew'], verbose: true)
+brew.install!
 
-puts "« Installing homebrew »".bold.blue
-BREW_SH = """
-'/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-"""
+puts "\n« Installing homebrew taps »".bold.blue
+brew.tap!
 
-puts "« Installing homebrew casks »".bold.blue
+puts "\n« Installing apps via homebrew »".bold.blue
+brew.install_apps!
 
-puts "« Installing apps via homebrew »".bold.blue
+puts "\n« Installing asdf plugins »".bold.blue
 
-puts "« Installing asdf plugins »".bold.blue
-
-puts "« Installing oh-my-zsh »".bold.blue
+puts "\n« Installing oh-my-zsh »".bold.blue
