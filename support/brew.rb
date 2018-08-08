@@ -19,6 +19,10 @@ class Brew
     raise "Homebrew cask cleanup failed" unless system("brew cask cleanup")
   end
 
+  def update!
+    raise "Homebrew update failed" unless system("brew update")
+  end
+
   def install!
     if `which brew`.empty?
       raise "Homebrew installation failed" unless system(BREW_SH)
@@ -27,7 +31,7 @@ class Brew
     end
   end
 
-  def tap!
+  def tap_casks!
     @taps.each do |tap|
       puts " • #{tap}".bold.green if @verbose
       raise "Cask tapping #{tap} failed" unless system("brew tap #{tap}")

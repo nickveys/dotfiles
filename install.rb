@@ -22,10 +22,11 @@ puts "\n« Installing homebrew »".bold.blue
 brew = Brew.new(config['homebrew'], force: true, verbose: true)
 brew.install!
 
-puts "\n« Installing homebrew taps »".bold.blue
-brew.tap!
+puts "\n« Tapping homebrew casks »".bold.blue
+brew.tap_casks!
 
 puts "\n« Installing apps via homebrew »".bold.blue
+brew.update!
 brew.install_apps!
 
 puts "\n« Cleaning up after homebrew »".bold.blue

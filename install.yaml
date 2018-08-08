@@ -54,6 +54,7 @@ homebrew:
   taps:
     - homebrew/cask
     - homebrew/cask-fonts
+    - homebrew/cask-versions
   apps:
     - asdf
     - bash-completion
@@ -96,16 +97,24 @@ homebrew:
     - 1password
     - alfred
     - arq
+    - atom
     - bartender
+    - battle-net
+    - brave
     - cardhop
     - controlplane
     - dash
     - docker
+    - dropbox
     - duet
+    - epic-games
     - firefox
     - forklift
     - google-chrome
+    - google-chrome-canary
     - handbrake
+    - harvest
+    - hex-fiend
     - istat-menus
     - iterm2
     - java
@@ -114,21 +123,30 @@ homebrew:
     - kitematic
     - knox
     - ksdiff
+    - little-snitch
     - mactex
     - ngrok
+    - opera
     - path-finder
+    - parallels
     - paw
     - postgres
     - qlmarkdown
     - quicklook-json
+    - redis-app
+    - sketchup
     - slack
     - sourcetree
+    - spotify
     - steam
     - transmission
     - tunnelbear
+    - ultimaker-cura
     - visual-studio-code
+    - visual-studio-code-insiders
     - virtualbox
     - vlc
+    - vmware-fusion
     - xquartz
 asdf:
   plugins:
