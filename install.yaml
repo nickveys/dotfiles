@@ -110,6 +110,9 @@ homebrew:
     - duet
     - epic-games
     - firefox
+    - font-fira-code
+    - font-fira-mono
+    - font-fira-sans
     - forklift
     - google-chrome
     - google-chrome-canary
@@ -140,6 +143,7 @@ homebrew:
     - sourcetree
     - spotify
     - steam
+    - textmate
     - transmission
     - tunnelbear
     - ultimaker-cura
@@ -157,6 +161,7 @@ asdf:
     - erlang
     - golang
     - haskell
+    - julia
     - lua
     - nodejs
     - python
