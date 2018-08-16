@@ -48,5 +48,6 @@
     "gitlens.codeLens.enabled": false,
     "vsicons.projectDetection.disableDetect": true,
     "gitlens.historyExplorer.enabled": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "breadcrumbs.enabled": false
 }
