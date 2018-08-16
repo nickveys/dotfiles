@@ -72,6 +72,7 @@ homebrew:
     - hub
     - imagemagick
     - lame
+    - macvim
     - mercurial
     - p7zip
     - qt
