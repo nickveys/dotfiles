@@ -94,6 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 source /usr/local/opt/asdf/asdf.sh
 source "$HOME/.rvm/scripts/rvm"
 
