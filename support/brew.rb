@@ -16,7 +16,6 @@ class Brew
 
   def cleanup!
     raise "Homebrew cleanup failed" unless system("brew cleanup")
-    raise "Homebrew cask cleanup failed" unless system("brew cask cleanup")
   end
 
   def update!
