@@ -75,6 +75,7 @@ homebrew:
     - macvim
     - mercurial
     - p7zip
+    - pandoc
     - qt
     - readline
     - ripgrep
