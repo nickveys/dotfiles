@@ -62,6 +62,7 @@ homebrew:
     - cmake
     - coreutils
     - cowsay
+    - direnv
     - dos2unix
     - ffmpeg
     - fwup

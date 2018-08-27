@@ -23,3 +23,5 @@ export PS1='\n\[\e[32;1m\](\[\e[37;1m\]\u@\h\[\e[32;1m\])-(\[\e[37;1m\]\w\[\e[32
 export PATH="`brew --prefix`/bin:`brew --prefix`/sbin:$PATH"
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+eval "$(direnv hook bash)"

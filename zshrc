@@ -99,3 +99,5 @@ source /usr/local/opt/asdf/asdf.sh
 source "$HOME/.rvm/scripts/rvm"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+eval "$(direnv hook zsh)"
