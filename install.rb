@@ -2,11 +2,11 @@
 
 require('yaml')
 
-require_relative('support/asdf')
-require_relative('support/brew')
-require_relative('support/macos')
-require_relative('support/string')
-require_relative('support/symbolic_links')
+require_relative('lib/asdf')
+require_relative('lib/brew')
+require_relative('lib/macos')
+require_relative('lib/string')
+require_relative('lib/symbolic_links')
 
 config = YAML.load(open('./install.yaml'))
 
