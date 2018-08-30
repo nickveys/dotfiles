@@ -1,10 +1,11 @@
 require('fileutils')
+require('pathname')
 require_relative('string')
 
 class SymbolicLinks
   def initialize(links, options = {})
     @links = links
-    # @force = options[:force] || false
+    @force = options[:force] || false
     @verbose = options[:verbose] || false
   end
 
@@ -29,9 +30,15 @@ class SymbolicLinks
     end
 
     # something there? warn.
-    if File.exist?(from) || Dir.exist?(from)
-      puts "something in the way".bold.red if @verbose
-      return false
+    from_path = Pathname.new(from)
+    if from_path.exist? || from_path.symlink?
+      if @force
+        print "removing existing path/link ".bold.blue if @verbose
+        FileUtils.rm(from_path, force: true)
+      else
+        puts "something in the way".bold.red if @verbose
+        return false
+      end
     end
 
     # should be clear, make the link

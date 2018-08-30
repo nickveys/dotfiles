@@ -1,40 +1,40 @@
 symlinks:
   ~/.bash_profile:
-    to: bash_profile
+    to: ./files/.bash_profile
   ~/.profile:
-    to: profile
+    to: ./files/.profile
   ~/.zshrc:
-    to: zshrc
+    to: ./files/.zshrc
   ~/.oh-my-zsh/custom/aliases.zsh:
-    to: zsh-custom/aliases.zsh
+    to: ./files/.oh-my-zsh/custom/aliases.zsh
   ~/.hgrc:
-    to: hgrc
+    to: ./files/.hgrc
   ~/.hgignore_global:
-    to: hgignore_global
+    to: ./files/.hgignore_global
   ~/.hyper.js:
-    to: hyper.js
+    to: ./files/.hyper.js
   ~/.gitconfig:
-    to: gitconfig
+    to: ./files/.gitconfig
   ~/.gitignore_global:
-    to: gitignore_global
+    to: ./files/.gitignore_global
   ~/.tool-versions:
-    to: tool-versions
+    to: ./files/.tool-versions
   ~/.vimrc:
-    to: vimrc
+    to: ./files/.vimrc
   ~/.atom/config.cson:
-    to: atom/config.cson
+    to: ./files/.atom/config.cson
   ~/.atom/keymap.cson:
-    to: atom/keymap.cson
+    to: ./files/.atom/keymap.cson
   ~/.atom/snippets.cson:
-    to: atom/snippets.cson
+    to: ./files/.atom/snippets.cson
   ~/.atom/styles.less:
-    to: atom/styles.less
+    to: ./files/.atom/styles.less
   ~/Library/Application Support/Sublime Text 3:
-    to: Sublime Text 3
+    to: ./files/Sublime Text 3
   ~/Library/Application Support/Code/User:
-    to: VS Code/User
+    to: ./files/VS Code/User
   ~/Library/Application Support/Code - Insiders/User:
-    to: VS Code - Insiders/User
+    to: ./files/VS Code - Insiders/User
 macos:
   defaults:
     write:

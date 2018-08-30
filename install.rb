@@ -15,7 +15,7 @@ macos = MacOS.new(config['macos'], verbose: true)
 macos.defaults!
 
 puts "\n« Creating symbolic links »".bold.blue
-links = SymbolicLinks.new(config['symlinks'], verbose: true)
+links = SymbolicLinks.new(config['symlinks'], force: true, verbose: true)
 links.create!
 
 puts "\n« Installing homebrew »".bold.blue
