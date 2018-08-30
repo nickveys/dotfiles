@@ -39,4 +39,6 @@ asdf_config = Config.load('asdf')
 asdf = ASDF.new(asdf_config, verbose: true)
 asdf.plugins!
 
+puts "\n« Installing rvm »".bold.blue
+
 puts "\n« Installing oh-my-zsh »".bold.blue
