@@ -33,7 +33,7 @@ class SymbolicLinks
     from_path = Pathname.new(from)
     if from_path.exist? || from_path.symlink?
       if @force
-        print "removing existing path/link ".bold.blue if @verbose
+        print "removing existing ".bold.blue if @verbose
         FileUtils.rm(from_path, force: true)
       else
         puts "something in the way".bold.red if @verbose

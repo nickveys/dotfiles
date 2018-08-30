@@ -1,0 +1,14 @@
+defaults:
+  write:
+    com.apple.finder:
+      - ShowStatusBar -bool true
+    com.apple.ImageCapture:
+      - disableHotPlug -bool true
+    com.apple.Safari:
+      - AutoFillPasswords -bool false
+      - AutoFillCreditCardData -bool false
+      - AutoOpenSafeDownloads -bool false
+      - IncludeDevelopMenu -bool true
+      - SendDoNotTrackHTTPHeader -bool true
+      - ShowFavoritesBar -bool true
+      - ShowFullURLInSmartSearchField -bool true

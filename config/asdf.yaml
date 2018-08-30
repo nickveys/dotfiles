@@ -1,0 +1,12 @@
+plugins:
+  - crystal
+  - elixir
+  - elm
+  - erlang
+  - golang
+  - haskell
+  - julia
+  - lua
+  - nodejs
+  - python
+  - rust

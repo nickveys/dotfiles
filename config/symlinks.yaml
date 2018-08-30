@@ -1,0 +1,36 @@
+~/.bash_profile:
+  to: ./symlinks/.bash_profile
+~/.profile:
+  to: ./symlinks/.profile
+~/.zshrc:
+  to: ./symlinks/.zshrc
+~/.oh-my-zsh/custom/aliases.zsh:
+  to: ./symlinks/.oh-my-zsh/custom/aliases.zsh
+~/.hgrc:
+  to: ./symlinks/.hgrc
+~/.hgignore_global:
+  to: ./symlinks/.hgignore_global
+~/.hyper.js:
+  to: ./symlinks/.hyper.js
+~/.gitconfig:
+  to: ./symlinks/.gitconfig
+~/.gitignore_global:
+  to: ./symlinks/.gitignore_global
+~/.tool-versions:
+  to: ./symlinks/.tool-versions
+~/.vimrc:
+  to: ./symlinks/.vimrc
+~/.atom/config.cson:
+  to: ./symlinks/.atom/config.cson
+~/.atom/keymap.cson:
+  to: ./symlinks/.atom/keymap.cson
+~/.atom/snippets.cson:
+  to: ./symlinks/.atom/snippets.cson
+~/.atom/styles.less:
+  to: ./symlinks/.atom/styles.less
+~/Library/Application Support/Sublime Text 3:
+  to: ./symlinks/Sublime Text 3
+~/Library/Application Support/Code/User:
+  to: ./symlinks/VS Code/User
+~/Library/Application Support/Code - Insiders/User:
+  to: ./symlinks/VS Code - Insiders/User

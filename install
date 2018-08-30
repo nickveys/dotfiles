@@ -4,22 +4,24 @@ require('yaml')
 
 require_relative('lib/asdf')
 require_relative('lib/brew')
+require_relative('lib/config')
 require_relative('lib/macos')
 require_relative('lib/string')
 require_relative('lib/symbolic_links')
 
-config = YAML.load(open('./install.yaml'))
-
 puts "\n« Setting macOS Defaults »".bold.blue
-macos = MacOS.new(config['macos'], verbose: true)
+macos_config = Config.load('macos')
+macos = MacOS.new(macos_config, verbose: true)
 macos.defaults!
 
 puts "\n« Creating symbolic links »".bold.blue
-links = SymbolicLinks.new(config['symlinks'], force: true, verbose: true)
+symlinks_config = Config.load('symlinks')
+links = SymbolicLinks.new(symlinks_config, force: true, verbose: true)
 links.create!
 
 puts "\n« Installing homebrew »".bold.blue
-brew = Brew.new(config['homebrew'], force: true, verbose: true)
+homebrew_config = Config.load('homebrew')
+brew = Brew.new(homebrew_config, force: true, verbose: true)
 brew.install!
 
 puts "\n« Tapping homebrew casks »".bold.blue
@@ -33,7 +35,8 @@ puts "\n« Cleaning up after homebrew »".bold.blue
 brew.cleanup!
 
 puts "\n« Installing asdf plugins »".bold.blue
-asdf = ASDF.new(config['asdf'], verbose: true)
+asdf_config = Config.load('asdf')
+asdf = ASDF.new(asdf_config, verbose: true)
 asdf.plugins!
 
 puts "\n« Installing oh-my-zsh »".bold.blue
