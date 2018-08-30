@@ -63,6 +63,7 @@ homebrew:
     - coreutils
     - cowsay
     - direnv
+    - dockutil
     - dos2unix
     - ffmpeg
     - fwup
@@ -70,6 +71,7 @@ homebrew:
     - git-extras
     - gnupg
     - heroku
+    - httpie
     - hub
     - imagemagick
     - lame
@@ -77,6 +79,7 @@ homebrew:
     - mercurial
     - p7zip
     - pandoc
+    - psgrep
     - qt
     - readline
     - ripgrep
