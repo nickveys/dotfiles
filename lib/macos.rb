@@ -4,7 +4,6 @@ class MacOS
   def initialize(config, options = {})
     @write = config['defaults']['write'] rescue {}
 
-    # @force = options[:force] || false
     @verbose = options[:verbose] || false
   end
 

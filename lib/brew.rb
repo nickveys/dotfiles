@@ -26,7 +26,7 @@ class Brew
     if `which brew`.empty?
       raise "Homebrew installation failed" unless system(BREW_SH)
     else
-      puts " • brew already installed".bold.magenta
+      puts " • brew already installed".bold.magenta if @verbose
     end
   end
 

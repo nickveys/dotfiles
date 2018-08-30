@@ -5,6 +5,7 @@ require_relative('string')
 class SymbolicLinks
   def initialize(links, options = {})
     @links = links
+
     @force = options[:force] || false
     @verbose = options[:verbose] || false
   end

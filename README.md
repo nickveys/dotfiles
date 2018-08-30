@@ -10,7 +10,7 @@ Intended for macOS, beware elsewhere!
     ```
 1. Run the installer
     ```bash
-    $ cd ~/.dotfiles && ./install.rb
+    $ cd ~/.dotfiles && ./install
     ```
 1. Find something else to do until its done
 1. Find something else to do after its done

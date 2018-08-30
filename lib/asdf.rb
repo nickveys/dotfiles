@@ -17,7 +17,7 @@ class ASDF
     end
 
     results = needed.map do |plugin|
-      puts " • Installing asdf #{plugin} plugin".bold.green
+      puts " • Installing asdf #{plugin} plugin".bold.green if @verbose
       system("asdf plugin-add #{plugin}")
     end
 
