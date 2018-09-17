@@ -57,6 +57,7 @@ cask-apps:
   - battle-net
   - brave
   - cardhop
+  - choosy
   - controlplane
   - dash
   - docker
