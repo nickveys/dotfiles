@@ -12,3 +12,5 @@ defaults:
       - SendDoNotTrackHTTPHeader -bool true
       - ShowFavoritesBar -bool true
       - ShowFullURLInSmartSearchField -bool true
+    Apple Global Domain:
+      - AppleInterfaceStyle Dark
