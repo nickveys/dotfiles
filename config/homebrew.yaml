@@ -50,6 +50,7 @@ apps:
   - zsh-syntax-highlighting
 cask-apps:
   - 1password
+  - aerial
   - alfred
   - arq
   - atom
@@ -79,6 +80,7 @@ cask-apps:
   - java
   - kap
   - keepingyouawake
+  - keybase
   - kitematic
   - knox
   - ksdiff
