@@ -1,5 +1,6 @@
 plugins:
   - crystal
+  - dotnet-core
   - elixir
   - elm
   - erlang
@@ -8,6 +9,9 @@ plugins:
   - julia
   - lua
   - nodejs
+  - php
   - python
   - ruby
   - rust
+  - solidity
+  - swift
