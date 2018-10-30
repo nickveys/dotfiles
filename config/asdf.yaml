@@ -9,4 +9,5 @@ plugins:
   - lua
   - nodejs
   - python
+  - ruby
   - rust
