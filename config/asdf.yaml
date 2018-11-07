@@ -9,9 +9,6 @@ plugins:
   - julia
   - lua
   - nodejs
-  - php
   - python
   - ruby
   - rust
-  - solidity
-  - swift

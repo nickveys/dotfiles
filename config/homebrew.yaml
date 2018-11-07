@@ -66,9 +66,18 @@ cask-apps:
   - duet
   - epic-games
   - firefox
+  - font-cabin
+  - font-chivo
+  - font-cormorant
   - font-fira-code
   - font-fira-mono
   - font-fira-sans
+  - font-inconsolata
+  - font-montserrat
+  - font-neuton
+  - font-roboto
+  - font-rubik
+  - font-source-code-pro
   - forklift
   - google-chrome
   - google-chrome-canary
@@ -111,4 +120,5 @@ cask-apps:
   - virtualbox
   - vlc
   - vmware-fusion
+  - wireshark
   - xquartz
