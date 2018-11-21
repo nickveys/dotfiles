@@ -64,6 +64,7 @@ cask-apps:
   - docker
   - dropbox
   - duet
+  - eagle
   - epic-games
   - firefox
   - font-cabin
