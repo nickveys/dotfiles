@@ -49,5 +49,6 @@
     "vsicons.projectDetection.disableDetect": true,
     "gitlens.historyExplorer.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
