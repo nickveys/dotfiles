@@ -109,6 +109,7 @@ cask-apps:
   - redis-app
   - sketchup
   - slack
+  - slic3r
   - sourcetree
   - spotify
   - steam
