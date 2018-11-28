@@ -2,7 +2,7 @@
 	ui = auto
 [user]
 	name = Nick Veys
-	email = nick@codelever.com
+	email = nick@elixir.blue
 [core]
 	excludesfile = /Users/nick/.gitignore_global
 [difftool "sourcetree"]
