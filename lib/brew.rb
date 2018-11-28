@@ -38,8 +38,8 @@ class Brew
   end
 
   def install_apps!
-    raise "Some app installation failed" unless do_install_apps
-    raise "Some cask app installation failed" unless do_install_cask_apps
+    raise "Some app installation failed (#{$?})" unless do_install_apps
+    raise "Some cask app installation failed (#{$?})" unless do_install_cask_apps
   end
 
   # @return `true` on success
