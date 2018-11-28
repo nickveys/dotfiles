@@ -1,4 +1,5 @@
 taps:
+  - heroku/brew
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-versions
@@ -17,7 +18,6 @@ apps:
   - git
   - git-extras
   - gnupg
-  - heroku
   - httpie
   - hub
   - imagemagick
@@ -85,6 +85,7 @@ cask-apps:
   - google-chrome-canary
   - handbrake
   - harvest
+  - heroku
   - hex-fiend
   - istat-menus
   - iterm2
