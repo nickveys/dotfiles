@@ -4,7 +4,7 @@ OH_MY_ZSH = '''
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 '''
 
-class OhMyZsh
+class OhMyZSH
   def initialize(options = {})
     @verbose = options[:verbose] || false
   end
