@@ -1,7 +1,13 @@
 defaults:
   write:
+    com.apple.dashboard:
+      - mcx-disabled -bool false
+    com.apple.dock:
+      - mru-spaces -bool false
     com.apple.finder:
       - ShowStatusBar -bool true
+    com.apple.spaces:
+      - spans-displays -bool true
     com.apple.ImageCapture:
       - disableHotPlug -bool true
     com.apple.Safari:
@@ -12,5 +18,5 @@ defaults:
       - SendDoNotTrackHTTPHeader -bool true
       - ShowFavoritesBar -bool true
       - ShowFullURLInSmartSearchField -bool true
-    Apple Global Domain:
-      - AppleInterfaceStyle Dark
+    NSGlobalDomain:
+      - AppleInterfaceStyle -string "Dark"
