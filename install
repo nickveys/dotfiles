@@ -6,6 +6,7 @@ require_relative('lib/asdf')
 require_relative('lib/brew')
 require_relative('lib/config')
 require_relative('lib/macos')
+require_relative('lib/oh_my_zsh')
 require_relative('lib/string')
 require_relative('lib/symbolic_links')
 
@@ -13,6 +14,10 @@ puts "\n« Setting macOS Defaults »".bold.blue
 macos_config = Config.load('macos')
 macos = MacOS.new(macos_config, verbose: true)
 macos.defaults!
+
+puts "\n« Installing oh-my-zsh »".bold.blue
+omz = OhMyZsh.new(verbose: true)
+omz.install!
 
 puts "\n« Creating symbolic links »".bold.blue
 symlinks_config = Config.load('symlinks')
@@ -40,5 +45,3 @@ asdf = ASDF.new(asdf_config, verbose: true)
 asdf.plugins!
 
 puts "\n« Installing rvm »".bold.blue
-
-puts "\n« Installing oh-my-zsh »".bold.blue
