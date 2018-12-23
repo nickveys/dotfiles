@@ -1,7 +1,7 @@
 crystal 0.25.1
-elixir 1.6.4
+elixir 1.7.4
 elm 0.18.0
-erlang 20.3.4
+erlang 21.2
 golang 1.10.1
 julia 1.0.0
 lua 5.3.3
