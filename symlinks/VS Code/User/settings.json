@@ -50,5 +50,8 @@
     "gitlens.historyExplorer.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "breadcrumbs.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.views.repositories.files.layout": "auto",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true
 }
