@@ -24,6 +24,7 @@ apps:
   - hub
   - imagemagick
   - lame
+  - mas
   - mercurial
   - p7zip
   - pandoc

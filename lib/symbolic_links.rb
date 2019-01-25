@@ -19,6 +19,8 @@ class SymbolicLinks
     raise "Some link creation failed" unless results.all?
   end
 
+  private
+
   def create_link(from, to)
     print " • Link #{from} -> #{to} ".bold.green if @verbose
     from = File.expand_path(from)
