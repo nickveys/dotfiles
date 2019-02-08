@@ -44,11 +44,13 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.currentLine.enabled": false,
-    "gitlens.keymap": "chorded",
-    "gitlens.codeLens.enabled": false,
     "vsicons.projectDetection.disableDetect": true,
     "gitlens.historyExplorer.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "breadcrumbs.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.views.repositories.files.layout": "auto",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "gitlens.codeLens.enabled": false
 }
