@@ -1,6 +1,7 @@
 taps:
   - heroku/brew
   - homebrew/cask
+  - homebrew/cask-drivers
   - homebrew/cask-fonts
   - homebrew/cask-versions
 apps:
@@ -23,6 +24,7 @@ apps:
   - hub
   - imagemagick
   - lame
+  - mas
   - mercurial
   - p7zip
   - pandoc
@@ -82,6 +84,7 @@ cask-apps:
   - font-rubik
   - font-source-code-pro
   - forklift
+  - ftdi-vcp-driver
   - google-chrome
   - google-chrome-canary
   - handbrake
@@ -108,6 +111,7 @@ cask-apps:
   - qlmarkdown
   - quicklook-json
   - redis-app
+  - silicon-labs-vcp-driver
   - sketchup
   - slack
   - slic3r

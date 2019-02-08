@@ -1,3 +1,25 @@
+app-store:
+  install:
+    - 408981426   # Aperture
+    - 425264550   # Blackmagic Disk Speed Test
+    - 411643860   # DaisyDisk
+    - 924726344   # Deliveries
+    - 975937182   # Fantastical 2
+    - 424389933   # Final Cut Pro
+    - 587512244   # Kaleidoscope
+    - 409183694   # Keynote
+    - 409203825   # Numbers
+    - 1346203938  # OmniFocus
+    - 404458553   # OmniGraffle 5
+    - 409201541   # Pages
+    - 1289583905  # Pixelmator Pro
+    - 483820530   # QR Journal
+    - 880001334   # Reeder
+    - 877615577   # Serial
+    - 413965349   # Soulver
+    - 557168941   # Tweetbot
+    - 497799835   # Xcode
+    - 447661441   # xScope
 defaults:
   write:
     com.apple.dashboard:

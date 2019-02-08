@@ -40,6 +40,9 @@ brew.install_apps!
 puts "\n« Cleaning up after homebrew »".bold.blue
 brew.cleanup!
 
+puts "\n« Installing App Store applications »".bold.blue
+macos.install_apps!
+
 puts "\n« Installing asdf plugins »".bold.blue
 asdf_config = Config.load('asdf')
 asdf = ASDF.new(asdf_config, verbose: true)

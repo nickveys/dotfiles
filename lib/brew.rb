@@ -42,6 +42,8 @@ class Brew
     raise "Some cask app installation failed (#{$?})" unless do_install_cask_apps
   end
 
+  private
+
   # @return `true` on success
   def do_install_apps
     current = `brew list`.split
