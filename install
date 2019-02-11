@@ -16,11 +16,6 @@ macos_config = Config.load('macos')
 macos = MacOS.new(macos_config, verbose: true)
 macos.defaults!
 
-puts "\n« Creating symbolic links »".bold.blue
-symlinks_config = Config.load('symlinks')
-links = SymbolicLinks.new(symlinks_config, force: true, verbose: true)
-links.create!
-
 puts "\n« Installing homebrew »".bold.blue
 homebrew_config = Config.load('homebrew')
 brew = Brew.new(homebrew_config, force: true, verbose: true)
@@ -39,6 +34,11 @@ brew.cleanup!
 puts "\n« Installing oh-my-zsh »".bold.blue
 omz = OhMyZSH.new(verbose: true)
 omz.install!
+
+puts "\n« Creating symbolic links »".bold.blue
+symlinks_config = Config.load('symlinks')
+links = SymbolicLinks.new(symlinks_config, force: true, verbose: true)
+links.create!
 
 puts "\n« Installing App Store applications »".bold.blue
 macos.install_apps!
