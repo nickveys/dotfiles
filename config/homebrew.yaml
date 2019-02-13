@@ -5,7 +5,6 @@ taps:
   - homebrew/cask-fonts
   - homebrew/cask-versions
 apps:
-  - asdf
   - bash-completion
   - boost
   - cmake

@@ -43,9 +43,12 @@ links.create!
 puts "\n« Installing App Store applications »".bold.blue
 macos.install_apps!
 
-puts "\n« Installing asdf plugins »".bold.blue
+puts "\n« Installing asdf »".bold.blue
 asdf_config = Config.load('asdf')
 asdf = ASDF.new(asdf_config, verbose: true)
+asdf.install!
+
+puts "\n« Installing asdf plugins »".bold.blue
 asdf.plugins!
 
 puts "\n« Installing rvm »".bold.blue
