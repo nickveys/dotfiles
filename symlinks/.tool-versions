@@ -1,7 +1,7 @@
 crystal 0.25.1
-elixir 1.8.0
+elixir 1.8.1
 elm 0.18.0
-erlang 21.2.2
+erlang 21.3.1
 java openjdk-11.0.1
 kotlin 1.3.11
 golang 1.10.1
@@ -10,5 +10,5 @@ lua 5.3.3
 nodejs 6.14.4
 python 2.7.14
 ruby 2.6.1
-rust 1.28.0
+rust 1.33.0
 
