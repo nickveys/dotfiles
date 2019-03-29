@@ -18,6 +18,7 @@ apps:
   - git
   - git-extras
   - gnupg
+  - go-jira
   - heroku
   - httpie
   - hub
