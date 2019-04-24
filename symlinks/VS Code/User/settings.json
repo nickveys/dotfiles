@@ -52,5 +52,8 @@
     "gitlens.views.repositories.files.layout": "auto",
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
