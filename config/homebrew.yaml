@@ -4,6 +4,7 @@ taps:
   - homebrew/cask-drivers
   - homebrew/cask-fonts
   - homebrew/cask-versions
+  - liftoffcli/formulae
 apps:
   - bash-completion
   - boost
@@ -24,6 +25,7 @@ apps:
   - hub
   - imagemagick
   - lame
+  - liftoff
   - mas
   - mercurial
   - p7zip
