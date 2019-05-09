@@ -59,7 +59,6 @@ cask-apps:
   - atom
   - bartender
   - battle-net
-  - blender
   - brave-browser
   - cardhop
   - choosy
@@ -101,7 +100,6 @@ cask-apps:
   - ksdiff
   - little-snitch
   - mactex
-  - microsoft-office
   - ngrok
   - opera
   - path-finder
