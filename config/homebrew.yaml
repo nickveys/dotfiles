@@ -109,6 +109,7 @@ cask-apps:
   - paw
   - postgres
   - qlmarkdown
+  - qlprettypatch
   - quicklook-json
   - redis-app
   - silicon-labs-vcp-driver
