@@ -106,4 +106,6 @@ source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 source "$HOME/.rvm/scripts/rvm"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+export PATH="/usr/local/sbin:$PATH"
+
 eval "$(direnv hook zsh)"
