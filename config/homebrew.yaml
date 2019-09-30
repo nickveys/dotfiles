@@ -55,7 +55,7 @@ apps:
 cask-apps:
   - 1password
   - aerial
-  - alfred
+  - alfred3
   - arduino
   - arq
   - atom
