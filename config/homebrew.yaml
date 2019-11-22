@@ -20,6 +20,7 @@ apps:
   - git-extras
   - gnupg
   - go-jira
+  - graphviz
   - heroku
   - httpie
   - hub
@@ -38,6 +39,7 @@ apps:
   - sphinx-doc
   - sqlite
   - subversion
+  - telnet
   - tig
   - tldr
   - tree
