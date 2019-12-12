@@ -25,6 +25,7 @@ apps:
   - httpie
   - hub
   - imagemagick
+  - jq
   - lame
   - libusb
   - liftoff
@@ -69,7 +70,7 @@ cask-apps:
   - cardhop
   - choosy
   - controlplane
-  - dash
+  - dash4
   - docker
   - dropbox
   - duet
