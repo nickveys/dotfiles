@@ -20,12 +20,16 @@ apps:
   - git-extras
   - gnupg
   - go-jira
+  - graphviz
   - heroku
   - httpie
   - hub
   - imagemagick
+  - jq
   - lame
+  - libusb
   - liftoff
+  - lsusb
   - mas
   - mercurial
   - p7zip
@@ -38,6 +42,7 @@ apps:
   - sphinx-doc
   - sqlite
   - subversion
+  - telnet
   - tig
   - tldr
   - tree
@@ -65,7 +70,7 @@ cask-apps:
   - cardhop
   - choosy
   - controlplane
-  - dash
+  - dash4
   - docker
   - dropbox
   - duet
