@@ -109,7 +109,7 @@ cask-apps:
   - knox
   - ksdiff
   - little-snitch
-  - mactex
+  - mactex-no-gui
   - ngrok
   - opera
   - path-finder
