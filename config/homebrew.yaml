@@ -6,6 +6,7 @@ taps:
   - homebrew/cask-versions
   - liftoffcli/formulae
 apps:
+  - ant
   - bash-completion
   - boost
   - cmake
@@ -20,6 +21,7 @@ apps:
   - git-extras
   - gnupg
   - go-jira
+  - gradle
   - graphviz
   - heroku
   - httpie
@@ -31,6 +33,7 @@ apps:
   - liftoff
   - lsusb
   - mas
+  - maven
   - mercurial
   - p7zip
   - pandoc
