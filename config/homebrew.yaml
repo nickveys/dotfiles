@@ -120,6 +120,7 @@ cask-apps:
   - qlprettypatch
   - quicklook-json
   - redis-app
+  - sensiblesidebuttons
   - silicon-labs-vcp-driver
   - sketchup
   - slack
