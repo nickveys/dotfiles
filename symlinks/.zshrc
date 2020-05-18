@@ -100,8 +100,9 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+ASDF_DIR=$HOME/.asdf
+. $ASDF_DIR/asdf.sh
+fpath=(${ASDF_DIR}/completions $fpath)
 
 source "$HOME/.rvm/scripts/rvm"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
