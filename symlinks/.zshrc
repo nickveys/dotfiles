@@ -100,12 +100,11 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
+export PATH="/usr/local/sbin:$PATH"
+
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
 source "$HOME/.rvm/scripts/rvm"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-export PATH="/usr/local/sbin:$PATH"
 
 eval "$(direnv hook zsh)"
