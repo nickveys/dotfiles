@@ -102,8 +102,9 @@ source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
 export PATH="/usr/local/sbin:$PATH"
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+ASDF_DIR=$HOME/.asdf
+. $ASDF_DIR/asdf.sh
+fpath=(${ASDF_DIR}/completions $fpath)
 
 source "$HOME/.rvm/scripts/rvm"
 
