@@ -55,5 +55,9 @@
     "gitlens.codeLens.enabled": false,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.configuration.checkProjectSettingsExclusions": false
 }
