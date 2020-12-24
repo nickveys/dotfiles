@@ -30,3 +30,5 @@
     st = status -s
     co = checkout
     ci = commit
+[pull]
+	rebase = false
