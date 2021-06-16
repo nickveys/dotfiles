@@ -1,6 +1,6 @@
 require_relative('string')
 
-ASDF_VERSION = 'v0.7.1'
+ASDF_VERSION = 'v0.8.0'
 
 ASDF_SH = """
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch #{ASDF_VERSION}
