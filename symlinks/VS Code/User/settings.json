@@ -22,8 +22,6 @@
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
     "telemetry.enableTelemetry": false,
-    // "typescript.autoImportSuggestions.enabled": false,
-    "window.zoomLevel": -1,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "none",
     "gitlens.gitExplorer.files.layout": "auto",
@@ -55,5 +53,22 @@
     "gitlens.codeLens.enabled": false,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/nickveys/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "java.semanticHighlighting.enabled": true,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1
 }
