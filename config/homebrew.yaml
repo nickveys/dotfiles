@@ -116,10 +116,10 @@ cask-apps:
   - parallels
   - paw
   - postgres
-  - qlmarkdown
   - qlprettypatch
   - quicklook-json
   - redis-app
+  - sbarex-qlmarkdown
   - sensiblesidebuttons
   - silicon-labs-vcp-driver
   - sketchup
