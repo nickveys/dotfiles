@@ -41,7 +41,6 @@ apps:
   - qt
   - readline
   - ripgrep
-  - ssh-copy-id
   - sphinx-doc
   - sqlite
   - subversion
