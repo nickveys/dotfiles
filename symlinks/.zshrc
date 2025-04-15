@@ -97,16 +97,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/opt/git-extras/share/git-extras/git-extras-completion.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$PATH:$HOME/.dotfiles/bin"
+
+# libpq homebrew package paths
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 ASDF_DIR=$HOME/.asdf
 . $ASDF_DIR/asdf.sh
 fpath=(${ASDF_DIR}/completions $fpath)
 
-source "$HOME/.rvm/scripts/rvm"
+# source "$HOME/.rvm/scripts/rvm"
 
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"

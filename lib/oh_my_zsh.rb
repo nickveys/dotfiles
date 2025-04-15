@@ -1,7 +1,7 @@
 require_relative('string')
 
 OH_MY_ZSH = '''
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 '''
 
 class OhMyZSH
